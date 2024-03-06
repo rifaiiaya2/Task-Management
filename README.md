@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Bootstrap
+# Project Overview
+This project is a task management application built using React. It allows users to manage their tasks by categorizing them as active or completed. The application consists of three main components: App, ActiveTask, and CompleteTask. The App component serves as the main entry point, while ActiveTask and CompleteTask handle the display of active and completed tasks, respectively.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Topics
+- App.tsx
+- ActiveTask.tsx
+- CompleteTask.tsx
+ 
+## How to Install and Run the Project
+Follow these steps to set up and run the task management application on your PC.
 
-Currently, two official plugins are available:
+### Prerequisites
+Ensure that you have Node.js and npm (Node Package Manager) installed on PC.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+1. Clone the repository to your PC:
 
-## Expanding the ESLint configuration
+    git clone https://github.com/your-username/your-repository.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navigate to the project directory:
 
-- Configure the top-level `parserOptions` property like this:
+    cd your-repository
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Install project dependencies:
+   
+    npm install
+   
+### Running the Application
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Start the development server and run the application:
+  npm run dev
