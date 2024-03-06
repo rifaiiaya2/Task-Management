@@ -6,14 +6,12 @@ import { RingLoader } from "react-spinners";
 
 function ActiveTask({
   active,
-  tasks,
   handleSubmit,
   toggleActive,
   deleteTask,
   loading,
 }: {
   active: Taskinterface[];
-  tasks: Taskinterface[];
   handleSubmit: (e: FormEvent<HTMLFormElement>, value: string) => void;
   toggleActive: (id: string, completed: boolean) => void;
   deleteTask: (id: string) => void;
